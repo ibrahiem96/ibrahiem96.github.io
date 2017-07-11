@@ -135,7 +135,7 @@ button {
 
 /*button stuff -----------------*/
 
-.btn-container {
+.main-container {
     text-align: center;
     opacity: 0;
     animation: fadeIn ease-in 1;
@@ -146,4 +146,6 @@ button {
 
 .infotext {
     color: white;
+    font-family: "Calibri";
+    font-size: 18px;
 }
