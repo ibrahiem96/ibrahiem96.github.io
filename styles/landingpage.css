@@ -1,7 +1,3 @@
-@keyframes fadeIn {
-    from {opacity: 0;} to {opacity: 1;}
-}
-
 body {
   background-color: black;
 }
@@ -134,18 +130,3 @@ button {
 }
 
 /*button stuff -----------------*/
-
-.main-container {
-    text-align: center;
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-}
-
-.infotext {
-    color: white;
-    font-family: "Calibri";
-    font-size: 18px;
-}
