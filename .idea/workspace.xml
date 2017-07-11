@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e87ebde-833b-4ab7-887d-637291d3bc1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/projects.html" afterPath="$PROJECT_DIR$/pages/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/skills.html" afterPath="$PROJECT_DIR$/pages/skills.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/volunteer.html" afterPath="$PROJECT_DIR$/pages/volunteer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/work.html" afterPath="$PROJECT_DIR$/pages/work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/containers.css" afterPath="$PROJECT_DIR$/styles/containers.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/projectspage.css" afterPath="$PROJECT_DIR$/styles/projectspage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/skillspage.css" afterPath="$PROJECT_DIR$/styles/skillspage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/text.css" afterPath="$PROJECT_DIR$/styles/text.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/volunteerpage.css" afterPath="$PROJECT_DIR$/styles/volunteerpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/workpage.css" afterPath="$PROJECT_DIR$/styles/workpage.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -557,7 +547,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499372105532</updated>
       <workItem from="1499372110589" duration="50000" />
-      <workItem from="1499373592235" duration="30525000" />
+      <workItem from="1499373592235" duration="30743000" />
     </task>
     <task id="LOCAL-00001" summary="main page background and about me icon">
       <created>1499445458177</created>
@@ -622,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499806603605</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="defining structure all across">
+      <created>1499807639630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1499807639630</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30575000" />
+    <option name="totallyTimeSpent" value="30793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,6 +666,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -681,7 +704,8 @@
     <MESSAGE value="add rest of immediate dir" />
     <MESSAGE value="divvy up stylesheets" />
     <MESSAGE value="update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
+    <MESSAGE value="defining structure all across" />
+    <option name="LAST_COMMIT_MESSAGE" value="defining structure all across" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,18 +839,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/mainpage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
