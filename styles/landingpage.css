@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+
+/*----------------- end icon design -----------------*/
+
 .ch-grid {
   margin: 20px 0 0 0;
   padding: 0;
@@ -95,8 +98,12 @@ body {
 .ch-item:hover .ch-info p {
   opacity: 1;
 }
+/*----------------- end icon design -----------------*/
 
-/*button stuff -----------------*/
+
+
+
+/*----------------- begin button design -----------------*/
 
 .offset {
     box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
@@ -129,7 +136,7 @@ button {
     justify-content: center;
 }
 
-/*button stuff -----------------*/
+/*----------------- end button design -----------------*/
 
 .landing-container-main {
     text-align: center;
