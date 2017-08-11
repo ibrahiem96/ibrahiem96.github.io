@@ -29,7 +29,7 @@
             ]);
 
             var options = {
-                title: 'Tools',
+                title: '',
                 is3D: true,
             };
 
@@ -49,7 +49,7 @@
             ]);
 
             var options = {
-                title: 'Tools',
+                title: '',
                 is3D: true,
             };
 
@@ -63,13 +63,13 @@
             var data = google.visualization.arrayToDataTable([
                 ['Tools', 'Usage'],
                 ['Python', 5.5],
-                ['Docker',      1.5],
-                ['AWS',  0.5],
-                ['JSON', 2.5],
+                ['Docker',      2.5],
+                ['AWS',  1.0],
+                ['JSON', 1.0],
             ]);
 
             var options = {
-                title: 'Tools',
+                title: '',
                 is3D: true,
             };
 
@@ -82,21 +82,33 @@
 </head>
 <body>
 <div class="main-container" >
-    <div class="info-container fitchratings cucumber-testing">
-        <div class="piechart-container">
-            <div class="chart" id="cucumber-testing-chart"></div>
-        </div>
 
-        <div class="piechart-container" id="solarwinds-chart"></div>
-        <div class="piechart-container" id="slackbot-chart"></div>
-    </div>
+    <div class="info-container fitchratings cucumber-testing">
+        <div class="description-container">
+            <h1 class="title" id="cucumber-testing-title">
+                Cucumber Testing
+            </h1>
+        </div>
+        <div class="skills-used-container">
+            <h1 class="title" id="cucumber-testing-skills">
+                Skills
+            </h1>
+        </div>
+        <div class="piechart-container" id="cucumber-testing-chart" tabindex="0"></div>
+     </div>
 
     <div class="info-container fitchratings solarwinds">
-
+        <h1 class="title" id="solarwinds-title">
+            Solarwinds
+        </h1>
+        <div class="piechart-container" id="solarwinds-chart"></div>
     </div>
 
     <div class="info-container fitchratings slackbot">
-
+        <h1 class="title" id="slackbot-title">
+            Slackbot API
+        </h1>
+        <div class="piechart-container" id="slackbot-chart"></div>
     </div>
 </div>
 </body>

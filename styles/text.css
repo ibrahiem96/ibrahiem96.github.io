@@ -11,3 +11,21 @@
 .mainpage {
     color: white;
 }
+
+.title {
+    font-family: "Arial Black";
+    font-size: 50px;
+
+}
+
+#cucumber-testing-title {
+    color: black;
+}
+
+#solarwinds-title {
+    color:white;
+}
+
+#slackbot-title {
+    color: black;
+}

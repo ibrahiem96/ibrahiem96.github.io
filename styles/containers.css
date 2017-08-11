@@ -27,7 +27,6 @@
 
 .info-container {
     transition: all 0.2s ease-in-out;
-    text-align: left;
     height: 600px;
 }
 
@@ -40,25 +39,11 @@
 }
 
 .piechart-container{
-    margin: auto;
-    margin-left: 100px;
-    width:250px;
-    height:250px;
-}
 
-.chart {
-    margin: auto;
-    margin-left: 40px;
-    width:200px;
-    height:200px;
-}
 
-.piechart-container:hover{
+    width:600px;
+    height:600px;
 
-    /* inner shadow */
-    -moz-box-shadow:    inset 0 0 10px black;
-    -webkit-box-shadow: inset 0 0 10px black;
-    box-shadow:         inset 0 0 10px black;
 }
 
 .experience-container{
@@ -81,25 +66,27 @@
     background-color: darkorchid;
 }
 
+.description-container {
+    border-style: dashed;
+    height: 600px;
+    width: 600px;
+}
+
+.skills-used-container {
+    border-style: dashed;
+    height: 600px;
+    width: 600px;
+    margin-left: 600px;
+}
+
 .cucumber-testing {
     background-color: darkgray;
-    color: black;
 }
 
 .solarwinds {
     background-color: maroon;
-    color: white;
 }
 
 .slackbot {
     background-color: darkgray;
-    color: black;
 }
-
-.fitchratings {
-    font-family: "Bookman Old Style";
-    font-size: x-large;
-}
-
-
-
