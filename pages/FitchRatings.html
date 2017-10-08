@@ -10,106 +10,13 @@
     <link rel="stylesheet" href="../styles/text.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-        google.charts.load('current', {'packages':['corechart']});
-        google.charts.setOnLoadCallback(drawToolsChart_cucumberTesting);
-        google.charts.setOnLoadCallback(drawToolsChart_solarwinds);
-        google.charts.setOnLoadCallback(drawToolsChart_slackbot);
-
-
-        function drawToolsChart_cucumberTesting() {
-
-            var data = google.visualization.arrayToDataTable([
-                ['Tools', 'Usage'],
-                ['Cucumber',     3],
-                ['Selenium Webdriver (Java)',      4],
-                ['Maven', 0.5],
-                ['Atlassian Bamboo',    2.5]
-            ]);
-
-            var options = {
-                title: '',
-                is3D: true,
-            };
-
-            var chart = new google.visualization.PieChart(document.getElementById('cucumber-testing-chart'));
-
-            chart.draw(data, options);
-        }
-
-        function drawToolsChart_solarwinds() {
-
-            var data = google.visualization.arrayToDataTable([
-                ['Tools', 'Usage'],
-                ['Mongo', 1],
-                ['Solarwinds',      5.5],
-                ['Perl Scripting',  1.5],
-                ['JSON', 2],
-            ]);
-
-            var options = {
-                title: '',
-                is3D: true,
-            };
-
-            var chart = new google.visualization.PieChart(document.getElementById('solarwinds-chart'));
-
-            chart.draw(data, options);
-        }
-
-        function drawToolsChart_slackbot() {
-
-            var data = google.visualization.arrayToDataTable([
-                ['Tools', 'Usage'],
-                ['Python', 5.5],
-                ['Docker',      2.5],
-                ['AWS',  1.0],
-                ['JSON', 1.0],
-            ]);
-
-            var options = {
-                title: '',
-                is3D: true,
-            };
-
-            var chart = new google.visualization.PieChart(document.getElementById('slackbot-chart'));
-
-            chart.draw(data, options);
-        }
-    </script>
 
 </head>
 <body>
 <div class="main-container" >
 
-    <div class="info-container fitchratings cucumber-testing">
-        <div class="description-container">
-            <h1 class="title" id="cucumber-testing-title">
-                Cucumber Testing
-            </h1>
-        </div>
-        <div class="skills-used-container">
-            <h1 class="title" id="cucumber-testing-skills">
-                Skills
-            </h1>
-        </div>
-        <div class="piechart-container" id="cucumber-testing-chart" tabindex="0"></div>
-     </div>
-
-    <div class="info-container fitchratings solarwinds">
-        <h1 class="title" id="solarwinds-title">
-            Solarwinds
-        </h1>
-        <div class="piechart-container" id="solarwinds-chart"></div>
-    </div>
-
-    <div class="info-container fitchratings slackbot">
-        <h1 class="title" id="slackbot-title">
-            Slackbot API
-        </h1>
-        <div class="piechart-container" id="slackbot-chart"></div>
-    </div>
+	<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/e97l3cuhx-m6/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0VTNhODlEb1kxaDhvUUVmMWNTSGFGaFZRPT0&amp;landing_sign=KjcHPi6lIQHTNTCiD36sL3KyUUqdi4V__7OTTaLtO6Q"></iframe>
+    
 </div>
 </body>
 </html>
