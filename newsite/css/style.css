@@ -59,6 +59,7 @@ header .navbar {
 header .navbar .navbar-nav.absolute-right {
   position: absolute;
   right: 0;
+  padding: 5px;
 }
 
 @media (max-width: 991.98px) {
