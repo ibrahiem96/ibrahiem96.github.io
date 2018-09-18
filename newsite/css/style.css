@@ -181,7 +181,7 @@ header .navbar .dropdown-menu a {
 }
 
 .top-bar-title {
-  color: white;
+  text-decoration-color: white;
 }
 
 .top-bar .social a, .top-bar .search-icon a {
