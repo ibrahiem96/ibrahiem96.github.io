@@ -180,6 +180,10 @@ header .navbar .dropdown-menu a {
   color: #fff;
 }
 
+.top-bar-title {
+  color: white;
+}
+
 .top-bar .social a, .top-bar .search-icon a {
   color: #fff;
   opacity: .5;
