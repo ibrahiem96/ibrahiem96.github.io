@@ -182,7 +182,7 @@ header .navbar .dropdown-menu a {
 .top-bar .social a, .top-bar .search-icon a {
   color: #fff;
   opacity: .5;
-  padding: 5px;
+  padding: 20px;
 }
 
 .top-bar .social a:hover, .top-bar .search-icon a:hover {
