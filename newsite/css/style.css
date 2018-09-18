@@ -180,8 +180,8 @@ header .navbar .dropdown-menu a {
   color: #fff;
 }
 
-.top-bar-title {
-  text-decoration-color: white;
+.top-bar-title h2 {
+  color: white;
 }
 
 .top-bar .social a, .top-bar .search-icon a {
