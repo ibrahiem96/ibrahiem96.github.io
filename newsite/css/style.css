@@ -177,6 +177,7 @@ header .navbar .dropdown-menu a {
 .top-bar {
   background: #000;
   padding: 10px 0;
+  color: #fff;
 }
 
 .top-bar .social a, .top-bar .search-icon a {
