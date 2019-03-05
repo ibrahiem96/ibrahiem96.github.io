@@ -1,0 +1,31 @@
+.container-text {
+    color: white;
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+.subcontainer-text {
+    color: red;
+}
+
+.mainpage {
+    color: white;
+}
+
+.title {
+    font-family: "Arial Black";
+    font-size: 50px;
+
+}
+
+#cucumber-testing-title {
+    color: black;
+}
+
+#solarwinds-title {
+    color:white;
+}
+
+#slackbot-title {
+    color: black;
+}
