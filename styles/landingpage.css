@@ -138,3 +138,8 @@ button {
 .landing-container-main {
     text-align: center;
 }
+
+#home {
+  background-image: linear-gradient(black, white);
+  /*opacity: 0.5;*/
+}
