@@ -139,6 +139,10 @@ button {
     text-align: center;
 }
 
+.current-title {
+  color: blue;
+}
+
 #home {
   background-image: linear-gradient(black, white);
   /*opacity: 0.5;*/
