@@ -23,13 +23,16 @@
     <link rel="stylesheet" href="styles/landingpage.css">
     <link rel="stylesheet" href="styles/containers.css">
     <link rel="stylesheet" href="styles/text.css">
-
+<!--     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+ -->
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
     <!-- favicons
     ================================================== -->
@@ -39,6 +42,10 @@
 </head>
 
 <body id="top">
+
+    <script>
+      $("#demo01").animatedModal();
+    </script>
 
     <!-- header
     ================================================== -->
@@ -157,7 +164,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Who am I</h3>
-                <h1 class="display-1">I am a software developer who is currently working at Fitch Ratings Chicago as a <a href="#experience"> <span class="current-title">Full Stack Engineer</span> </a> </h1>
+                <h1 class="display-1">I am a software developer who is currently working at Fitch Ratings Chicago as a <a href="#experience">Full Stack Engineer</a></h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -733,6 +740,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+<!--     <script src="js/jquery.min.js"></script>
+    <script src="js/animatedModal.js"></script>
+    <script>
+
+            //demo 01
+            $("#demo01").animatedModal();
+
+            //demo 02
+            $("#demo02").animatedModal({
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+            });
+
+    </script> -->
 
 </body>
 

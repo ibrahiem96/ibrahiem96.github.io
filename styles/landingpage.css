@@ -110,7 +110,8 @@
 }
 
 .offset {
-    --color: #19bc8b;
+    --color: #cc147f;
+    /*--color: #19bc8b;*/
     --hover: #1973bc;
 }
 button {
